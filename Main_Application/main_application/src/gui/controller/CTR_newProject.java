@@ -73,7 +73,7 @@ public class CTR_newProject implements Initializable {
                         //erstelle neues Projekt!!!
                         try {
 
-                            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/project_module.fxml"));
+                            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/project_module.fxml"));
                             CTR_Project_Module project_module = new CTR_Project_Module(Manager.clients.get(customerIndex), input_name.getText(), maxHours, Manager.projectList.size());
                             fxmlLoader.setController(project_module);
                             Manager.projectList.add(project_module);

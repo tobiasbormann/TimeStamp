@@ -17,7 +17,6 @@ import main.Main_Application;
 
 import java.io.IOException;
 import java.net.URL;
-import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 /**
@@ -75,7 +74,7 @@ public class CTR_Dashboard implements Initializable {
 
         //Parent newProject = FXMLLoader.load(getClass().getResource("/gui/fxml/new_project.fxml"));
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/new_project.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/new_project.fxml"));
         CTR_newProject ctr_newProject = new CTR_newProject(this);
         fxmlLoader.setController(ctr_newProject);
         Parent newProject = fxmlLoader.load();

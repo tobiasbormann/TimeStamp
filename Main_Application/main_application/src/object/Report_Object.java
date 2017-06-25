@@ -114,7 +114,7 @@ public class Report_Object {
 
     public void reopen() throws IOException {
         //Erstelle ein neues Projekt mit den Report-Daten--------------------------------------------------------
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/project_module.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/res/fxml/project_module.fxml"));
         CTR_Project_Module project_module = new CTR_Project_Module(client, name, maxTime, Manager.projectList.size());
         project_module.setStorageObjects(storageObjects);
         fxmlLoader.setController(project_module);

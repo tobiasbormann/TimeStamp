@@ -3,8 +3,6 @@ package gui.controller;
 import handling.*;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -201,7 +199,7 @@ public class CTR_Project_Module {
         Stage stageProjectEdit = new Stage();
         stageProjectEdit.initModality(Modality.APPLICATION_MODAL);
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/project_edit.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/project_edit.fxml"));
         System.out.println("name: " + name);
         System.out.println("kunde: "  + client);
         CTR_Project_Edit ctr_project_edit = new CTR_Project_Edit(this, stageProjectEdit, name, mainSec, maxTimeHours, client);

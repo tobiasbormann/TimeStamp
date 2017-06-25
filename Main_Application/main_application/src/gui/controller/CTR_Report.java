@@ -103,7 +103,7 @@ public class CTR_Report {
     private void createUI(ArrayList<Report_Object> reports, LocalDate date) throws IOException {
         entryVBox.getChildren().clear();
         for(Report_Object report : reports) {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/report_module.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/report_module.fxml"));
             report.setDate(date);
             fxmlLoader.setController(report);
             Parent reportUI = fxmlLoader.load();

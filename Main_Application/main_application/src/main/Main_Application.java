@@ -73,15 +73,15 @@ public class Main_Application extends Application {
     }
 
     public void loadDashboard() throws IOException {
-        dashboard = FXMLLoader.load(getClass().getResource("/gui/fxml/dashboard.fxml"));
+        dashboard = FXMLLoader.load(getClass().getResource("/fxml/dashboard.fxml"));
         primaryStage.setTitle("TimeStamp Dashboard - build: " + build);
         Scene dashboardScene = new Scene(dashboard, 1005, 720);
-        dashboardScene.getStylesheets().add(getClass().getResource("/gui/css/ui_view.css").toExternalForm());
+        dashboardScene.getStylesheets().add(getClass().getResource("/css/ui_view.css").toExternalForm());
         primaryStage.setScene(dashboardScene);
     }
 
     public void loadFonts(String file) {
-        Font.loadFont(getClass().getResourceAsStream("../gui/font/" + file), 10);
+        Font.loadFont(getClass().getResourceAsStream("/font/" + file), 10);
     }
 
     public static void setdashboardController(CTR_Dashboard ctr_dashboard) {

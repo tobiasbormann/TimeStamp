@@ -123,7 +123,7 @@ public class CSV_ProjectHandler {
     private void createProjects() throws IOException {
         Main_Application.ctr_dashboard.vbox_projList.getChildren().clear();
         for(CTR_Project_Module project : Manager.projectList) {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/gui/fxml/project_module.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/res/fxml/project_module.fxml"));
             fxmlLoader.setController(project);
 
             Parent projectUI = fxmlLoader.load();
