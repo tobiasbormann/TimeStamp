@@ -47,7 +47,7 @@ public class Updater {
                 //float newBuildFloat = Float.parseFloat(newBuild);
                 //if(!newBuild.equals(null) && !newBuild.equals(Updater_Main.build)) {
                 if(Float.parseFloat(newBuild) > Float.parseFloat(Updater_Main.build) && !newBuild.equals(null)) {
-                    if(alerts.confirmDialog("Update", "Es ist ein Update verfügbar", "Möchtest du TimeStamp aktualisieren?")) {
+                    if(alerts.confirmDialogFX("Update", "Es ist ein Update verfügbar", "Möchtest du TimeStamp aktualisieren?")) {
                         System.out.println("True");
                         return true;
                     } else {
