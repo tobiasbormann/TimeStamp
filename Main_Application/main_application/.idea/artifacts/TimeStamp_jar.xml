@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TimeStamp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TimeStamp_jar</output-path>
+    <root id="archive" name="TimeStamp.jar">
+      <element id="module-output" name="main_application" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ext_library/opencsv-3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ext_library/common-lang3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ext_library/commons-net-3.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
