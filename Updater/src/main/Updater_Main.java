@@ -49,12 +49,7 @@ public class Updater_Main {
 
     public boolean start(String version) throws Exception {
         Updater_Main.build = version;
-        if(!File_Handler.fileExist("ver")){
-            File_Handler.createDir("ver");
-        }
-        if(!File_Handler.fileExist("data")){
-            File_Handler.createDir("data");
-        }
+
 
         /*
         if(File_Handler.fileExist("ver/build.txt")) {

@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class Main_Application extends Application {
 
-    public static final String build = "0.25";
+    public static final String build = "0.3";
 
     private final String fn = "SourceSansPro-";
     private final String[] fonts = {"uiicons.ttf", fn+"Black.tff", fn+"BlackItalic.tff", fn+"Bold.tff",
@@ -28,8 +28,6 @@ public class Main_Application extends Application {
     public static Parent dashboard;
 
     public static CTR_Dashboard ctr_dashboard;
-
-    private CSV_ProjectHandler csv_projectHandler = new CSV_ProjectHandler();
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -51,7 +49,7 @@ public class Main_Application extends Application {
             @Override
             public void handle(WindowEvent event) {
                 try {
-                    csv_projectHandler.csvWriter();
+                    CSV_ProjectHandler.csvWriter();
                     System.out.println("Daten gespeichert");
                 } catch (IOException e) {
                     e.printStackTrace();

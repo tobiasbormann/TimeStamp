@@ -86,7 +86,7 @@ public class Updater {
         textArea.setWrapStyleWord(true);
 
         textArea.setSize(textArea.getPreferredSize().width, 1);
-        JOptionPane.showMessageDialog(null, new JScrollPane( textArea), "Not Truncated!",
+        JOptionPane.showMessageDialog(null, new JScrollPane(textArea), "Update verfügbar",
                 JOptionPane.WARNING_MESSAGE);
 
         renameBuildFile();

@@ -28,6 +28,13 @@ public class Main extends Application {
             new Thread(() -> Platform.runLater(() -> {
                 if(CTR_Config.updateConfig) {
                 try {
+                    if(!File_Handler.fileExist("ver")){
+                        File_Handler.createDir("ver");
+                    }
+                    if(!File_Handler.fileExist("data")){
+                        File_Handler.createDir("data");
+                    }
+
                     update(primaryStage);
                 } catch (Exception e) {
                     e.printStackTrace();
