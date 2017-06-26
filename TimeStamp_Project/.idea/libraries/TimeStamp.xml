@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="TimeStamp">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../MainApplication/main_application/out/artifacts/TimeStamp_jar/TimeStamp.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -14,8 +14,18 @@ public class Alert_Windows {
 
 
     public boolean confirmDialog(String title, String header, String text) {
-        int response = JOptionPane.showConfirmDialog(null, "Do you want to continue?", "Confirm",
-                JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+        System.out.println("alert start");
+        JOptionPane optionPane = new JOptionPane();
+        int response = JOptionPane.showConfirmDialog(null,
+                "Do you want to proceed?", "Select an Option...",JOptionPane.YES_NO_CANCEL_OPTION);
+        System.out.println("vor dialog");
+        JDialog dialog = optionPane.createDialog("Title");
+        dialog.setAlwaysOnTop(true);
+        dialog.setVisible(true);
+
+
+        System.out.println("ersteltl");
+
         if (response == JOptionPane.NO_OPTION) {
             System.out.println("No button clicked");
             return false;

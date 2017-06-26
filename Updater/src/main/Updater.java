@@ -1,5 +1,7 @@
 package main;
 
+import javafx.scene.control.Alert;
+
 import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
@@ -80,6 +82,14 @@ public class Updater {
             content = content + entry + "\n";
         }
 
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Changelog");
+        alert.setHeaderText(null);
+        alert.setContentText(content);
+
+        alert.showAndWait();
+
+        /*
         JTextArea textArea = new JTextArea(content);
         textArea.setColumns(30);
         textArea.setLineWrap(true);
@@ -87,7 +97,7 @@ public class Updater {
 
         textArea.setSize(textArea.getPreferredSize().width, 1);
         JOptionPane.showMessageDialog(null, new JScrollPane(textArea), "Update verfügbar",
-                JOptionPane.WARNING_MESSAGE);
+                JOptionPane.WARNING_MESSAGE);*/
 
         renameBuildFile();
     }

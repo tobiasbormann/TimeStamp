@@ -6,8 +6,166 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="FX Alerts in Upader eingesetzt, um Probleme bei MAC zu umgehen">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../main_application/src/main/Main_Application.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/TimeStamp_singleJar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/TimeStamp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Updater.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Updater/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/css/ui_view.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-ExtraLightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-Semibold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/SourceSansPro-SemiboldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/font/uiicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/dashboard.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/main_menu.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/new_project.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/project_edit.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/project_module.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/main_application/gui/fxml/report_module.fxml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/.name" afterPath="$PROJECT_DIR$/../main_application/.idea/.name" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/artifacts/TimeStamp.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/artifacts/TimeStamp.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/artifacts/TimeStamp_jar.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/artifacts/TimeStamp_jar.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/description.html" afterPath="$PROJECT_DIR$/../main_application/.idea/description.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/encodings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/gradle.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/libraries/Updater.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/libraries/Updater.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/libraries/common_lang3.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/libraries/common_lang3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/libraries/commons_net_3_6.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/libraries/commons_net_3_6.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/libraries/opencsv_3_9.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/libraries/opencsv_3_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/misc.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/modules.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/workspace (Eike D.s in Konflikt stehende Kopie 2017-06-11).xml" afterPath="$PROJECT_DIR$/../main_application/.idea/workspace (Eike D.s in Konflikt stehende Kopie 2017-06-11).xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../main_application/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/main_application.iml" afterPath="$PROJECT_DIR$/../main_application/main_application.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/artifacts/TimeStamp_jar/TimeStamp.jar" afterPath="$PROJECT_DIR$/../main_application/out/artifacts/TimeStamp_jar/TimeStamp.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/artifacts/TimeStamp_jar/data/archiv.csv" afterPath="$PROJECT_DIR$/../main_application/out/artifacts/TimeStamp_jar/data/archiv.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/artifacts/TimeStamp_jar/data/trackingData.csv" afterPath="$PROJECT_DIR$/../main_application/out/artifacts/TimeStamp_jar/data/trackingData.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/META-INF/MANIFEST.MF" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/css/ui_view.css" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/css/ui_view.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Black.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-BlackItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-BlackItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Bold.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-BoldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-ExtraLight.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-ExtraLight.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-ExtraLightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Italic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Light.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-LightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Regular.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-Semibold.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-Semibold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/SourceSansPro-SemiboldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/SourceSansPro-SemiboldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/font/uiicons.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/font/uiicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/dashboard.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/dashboard.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/main_menu.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/main_menu.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/new_project.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/new_project.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/project_edit.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/project_edit.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/project_module.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/project_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/fxml/report_module.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/fxml/report_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp/gui/images/logo.png" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp/gui/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/css/ui_view.css" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/css/ui_view.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Black.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-BlackItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-BlackItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Bold.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-BoldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-ExtraLight.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-ExtraLight.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-ExtraLightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Italic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Light.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-LightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Regular.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Semibold.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-Semibold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-SemiboldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/SourceSansPro-SemiboldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/font/uiicons.ttf" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/font/uiicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/dashboard.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/dashboard.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/main_menu.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/main_menu.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/new_project.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/new_project.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/project_edit.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/project_edit.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/project_module.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/project_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/fxml/report_module.fxml" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/fxml/report_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/out/production/TimeStamp_2/gui/images/logo.png" afterPath="$PROJECT_DIR$/../main_application/out/production/TimeStamp_2/gui/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/css/ui_view.css" afterPath="$PROJECT_DIR$/../main_application/res/css/ui_view.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Black.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-BlackItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-BlackItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Bold.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-BoldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-BoldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-ExtraLight.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-ExtraLight.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-ExtraLightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Italic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Light.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-LightItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-LightItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Regular.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-Semibold.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-Semibold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/SourceSansPro-SemiboldItalic.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/SourceSansPro-SemiboldItalic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/font/uiicons.ttf" afterPath="$PROJECT_DIR$/../main_application/res/font/uiicons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/config.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/config.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/dashboard.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/dashboard.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/main_menu.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/main_menu.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/new_project.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/new_project.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/project_edit.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/project_edit.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/project_module.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/project_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/res/fxml/report_module.fxml" afterPath="$PROJECT_DIR$/../main_application/res/fxml/report_module.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Archiv.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Archiv.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Client.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Config.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Config.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Dashboard.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Dashboard.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Main_Menu.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Main_Menu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Project_Edit.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Edit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Project_Module.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Module.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_Report.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Report.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/controller/CTR_newProject.java" afterPath="$PROJECT_DIR$/../main_application/src/gui/controller/CTR_newProject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/gui/images/logo.png" afterPath="$PROJECT_DIR$/../main_application/src/gui/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/Alert_Windows.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/Alert_Windows.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/Archiv_Handler.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/Archiv_Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/CSV_ClientHandler.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/CSV_ClientHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/CSV_ProjectHandler.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/CSV_ProjectHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/Config.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/Config.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/File_Handler.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/File_Handler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/handling/Manager.java" afterPath="$PROJECT_DIR$/../main_application/src/handling/Manager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/object/Client_Object.java" afterPath="$PROJECT_DIR$/../main_application/src/object/Client_Object.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/object/Report_Object.java" afterPath="$PROJECT_DIR$/../main_application/src/object/Report_Object.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/object/StorageObject.java" afterPath="$PROJECT_DIR$/../main_application/src/object/StorageObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Main_Application/main_application/ver/build.txt" afterPath="$PROJECT_DIR$/../main_application/ver/build.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TimeStamp_Project/main/Main.class" afterPath="$PROJECT_DIR$/out/production/TimeStamp_Project/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Updater/main/Alert_Windows.class" afterPath="$PROJECT_DIR$/out/production/Updater/main/Alert_Windows.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Updater/main/Updater.class" afterPath="$PROJECT_DIR$/out/production/Updater/main/Updater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Updater/main/Updater_Main.class" afterPath="$PROJECT_DIR$/out/production/Updater/main/Updater_Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Archiv.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Archiv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Client.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Dashboard.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Dashboard.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Main_Menu.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Main_Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Project_Module.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Project_Module.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Report.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_Report.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_newProject.class" afterPath="$PROJECT_DIR$/out/production/main_application/gui/controller/CTR_newProject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/handling/CSV_ProjectHandler.class" afterPath="$PROJECT_DIR$/out/production/main_application/handling/CSV_ProjectHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/handling/File_Handler.class" afterPath="$PROJECT_DIR$/out/production/main_application/handling/File_Handler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/handling/Manager.class" afterPath="$PROJECT_DIR$/out/production/main_application/handling/Manager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/main/Main_Application$1.class" afterPath="$PROJECT_DIR$/out/production/main_application/main/Main_Application$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/main/Main_Application.class" afterPath="$PROJECT_DIR$/out/production/main_application/main/Main_Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/object/Client_Object.class" afterPath="$PROJECT_DIR$/out/production/main_application/object/Client_Object.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/main_application/object/Report_Object.class" afterPath="$PROJECT_DIR$/out/production/main_application/object/Report_Object.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Main_Application/main_application/src/main/Main_Application.java" afterPath="$PROJECT_DIR$/../Main_Application/main_application/src/main/Main_Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TimeStamp.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TimeStamp.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeStamp_Project.iml" afterPath="$PROJECT_DIR$/TimeStamp_Project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Updater/Updater.iml" afterPath="$PROJECT_DIR$/../Updater/Updater.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java" afterPath="$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Updater/src/main/Updater.java" afterPath="$PROJECT_DIR$/../Updater/src/main/Updater.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,55 +223,9 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Report_Object.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/object/Report_Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="report_module.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/report_module.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CTR_Report.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Report.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2150">
-              <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_project.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/dashboard.fxml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="startScreen.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/startScreen.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -125,58 +237,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTR_Project_Module.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Project_Module.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="165">
+              <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CTR_newProject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java">
+      <file leaf-file-name="Updater_Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater_Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Updater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_application.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../main_application/main_application.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alert_Windows.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project_module.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/project_module.fxml">
+      <file leaf-file-name="Main_Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../main_application/src/main/Main_Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CTR_Dashboard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="80" column="46" lean-forward="false" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+            <state relative-caret-position="15">
+              <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui_view.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/css/ui_view.css">
+      <file leaf-file-name="CTR_Project_Edit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Edit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CTR_Project_Module.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Module.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alert_Windows.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../main_application/src/handling/Alert_Windows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -190,7 +337,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MainApplication" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/../MainApplication" value="7263b0f3476e020fafba5fa95da329740b6b13d9" />
@@ -212,15 +359,18 @@
         <option value="$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java" />
         <option value="$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml" />
         <option value="$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/../main_application/src/main/Main_Application.java" />
+        <option value="$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java" />
+        <option value="$PROJECT_DIR$/../Updater/src/main/Updater.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1162" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1108" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -241,7 +391,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,14 +402,176 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TimeStamp_2" />
+              <option name="myItemId" value="Updater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Updater" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="object" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeStamp_Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,11 +585,129 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21165049" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../main_application" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Main_Application/main_application/src/main/Main_Application.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Updater/src/main/Updater.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,7 +721,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main_Application">
+  <component name="RunManager" selected="Application.Main Project">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -628,29 +1060,30 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1162" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1108" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28066528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33056134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33012512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.280077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25809935" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -659,7 +1092,6 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -704,13 +1136,17 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../MainApplication/main_application" />
+      <path value="$PROJECT_DIR$/../MainApplication" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../Updater" />
     </ignored-roots>
     <MESSAGE value="Creating Repository" />
     <MESSAGE value="testing 1" />
     <MESSAGE value="testing 2" />
     <MESSAGE value="DatePicker 2 auskommentiert" />
     <MESSAGE value="- Controller für New Project wieder zurückgesetzt&#10;- Alles Ausklappenbutton (Muss in Togglebutton umgeändert werden)" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Controller für New Project wieder zurückgesetzt&#10;- Alles Ausklappenbutton (Muss in Togglebutton umgeändert werden)" />
+    <MESSAGE value="FX Alerts in Upader eingesetzt, um Probleme bei MAC zu umgehen" />
+    <option name="LAST_COMMIT_MESSAGE" value="FX Alerts in Upader eingesetzt, um Probleme bei MAC zu umgehen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,76 +1157,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/object/Report_Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/report_module.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/dashboard.fxml">
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/FTP_Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Project_Module.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/project_module.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/startScreen.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -801,38 +1178,56 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" column="46" lean-forward="true" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        <state relative-caret-position="165">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/css/ui_view.css">
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/object/Report_Object.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/report_module.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Report.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/dashboard.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Project_Module.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/project_module.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/css/ui_view.css" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/startScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -840,77 +1235,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/main/Main_Application.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Project_Module.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/project_module.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/dashboard.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/report_module.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/object/Report_Object.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Report.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java" />
+    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/css/ui_view.css" />
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/FTP_Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/main/Main_Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Project_Module.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/project_module.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/dashboard.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/report_module.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_newProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="19" column="79" lean-forward="false" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/fxml/new_project.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/startScreen.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -918,34 +1267,76 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/object/Report_Object.java">
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Report.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="101" column="48" lean-forward="false" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/controller/CTR_Dashboard.java">
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Alert_Windows.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="80" column="46" lean-forward="false" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+        <state relative-caret-position="840">
+          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../main_application/main_application.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MainApplication/main_application/src/gui/css/ui_view.css">
+    <entry file="file://$PROJECT_DIR$/../main_application/src/main/Main_Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="21" column="47" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Edit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../main_application/src/gui/controller/CTR_Project_Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../main_application/src/handling/Alert_Windows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Updater/src/main/Updater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -973,7 +1364,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21165049" />
               </list>
             </option>
           </splitter-proportions>
@@ -1004,12 +1395,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Launcher</last-edited>
+          <last-edited>TimeStamp_Project</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21165049" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1021,7 +1411,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21165049" />
               </list>
             </option>
           </splitter-proportions>
